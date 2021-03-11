@@ -11,3 +11,91 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbarLink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #242120;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.listStyleNone {
+  list-style-type: none !important;
+}
+
+.body__img {
+  width: 536px;
+  margin-top: 10px;
+  /* height: 568px; */
+}
+
+.body__h1 {
+  margin-top: 100px;
+  width: 500px;
+  /* height: 150px */
+}
+.body__p {
+  width: 489px;
+  height: 62px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: #494949;
+}
+
+.body__img2 {
+  width: 631px;
+  height: 631px;
+}
+
+.body__row2 {
+  color: #fff;
+  background-color: #222222;
+}
+
+.badge {
+  width: 95px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.vendor {
+  width: 75px;
+  height: 30px;
+  background: #F0FFEE;
+  border-radius: 4px;
+}
+
+.womanShopping__bg {
+  background-image: url(/src/ji/woman__bg.svg);
+}
+
+.group__images {
+  margin: 40px
+}
+
+.footer__Bg {
+  background-image: url(../src/ji/footer__bg.svg);
+  padding-top: 5px;
+}
+
+
+
+
+
+
