@@ -18,7 +18,7 @@ class Navbar extends Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                             <a className="navbar-brand mr-auto" href="#">
-                                <img src="/images/Vasiti-Logo-black 1.svg" alt="vasity-logo"/>
+                                <img src="/images/Vasiti-Logoo-black 1.png" alt="vasity-logo"/>
                             </a>
                             <form className="form-inline my-2 my-lg-0">
                                 <li className="nav-item listStyleNone">
