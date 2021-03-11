@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/testimonial_page/static/css/main.b3b44ab1.chunk.css",
+    "main.js": "/testimonial_page/static/js/main.430e1210.chunk.js",
+    "main.js.map": "/testimonial_page/static/js/main.430e1210.chunk.js.map",
+    "runtime-main.js": "/testimonial_page/static/js/runtime-main.3b2387bf.js",
+    "runtime-main.js.map": "/testimonial_page/static/js/runtime-main.3b2387bf.js.map",
+    "static/css/2.62de5916.chunk.css": "/testimonial_page/static/css/2.62de5916.chunk.css",
+    "static/js/2.27f86f93.chunk.js": "/testimonial_page/static/js/2.27f86f93.chunk.js",
+    "static/js/2.27f86f93.chunk.js.map": "/testimonial_page/static/js/2.27f86f93.chunk.js.map",
+    "static/js/3.d88c15c1.chunk.js": "/testimonial_page/static/js/3.d88c15c1.chunk.js",
+    "static/js/3.d88c15c1.chunk.js.map": "/testimonial_page/static/js/3.d88c15c1.chunk.js.map",
+    "index.html": "/testimonial_page/index.html",
+    "static/css/2.62de5916.chunk.css.map": "/testimonial_page/static/css/2.62de5916.chunk.css.map",
+    "static/css/main.b3b44ab1.chunk.css.map": "/testimonial_page/static/css/main.b3b44ab1.chunk.css.map",
+    "static/js/2.27f86f93.chunk.js.LICENSE.txt": "/testimonial_page/static/js/2.27f86f93.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/testimonial_page/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/index.css": "/testimonial_page/static/media/woman__bg.6c06b83c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3b2387bf.js",
+    "static/css/2.62de5916.chunk.css",
+    "static/js/2.27f86f93.chunk.js",
+    "static/css/main.b3b44ab1.chunk.css",
+    "static/js/main.430e1210.chunk.js"
+  ]
+}
