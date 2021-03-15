@@ -18,13 +18,13 @@ class MainBody extends Component {
                         </div>
                         <div className="col">
                             <div className="body__bgimg">
-                                <img src="/images/Group 81.svg" className="body__img" alt="vasity-logo"/>  
+                                <img src="/images/Group__81.svg" className="body__img" alt="vasity-logo"/>  
                             </div>
                         </div>
                     </div>
                     <div className="row body__row2">
                         <div className="col">
-                            <img src="/images/Group 89.svg"  claasName="body__img2" alt="ladies"/>
+                            <img src="/images/Group__89.svg"  claasName="body__img2" alt="ladies"/>
                         </div>
                         <div className="col" style={{margin: '60px', marginTop: '90px'}}>
                             <h4>Tolu's and Joy's experience</h4>
@@ -44,7 +44,7 @@ class MainBody extends Component {
                             <br/>
                             <br/>
                             <span>
-                                <img src="/images/Group 47.svg" alt="group 47"/>
+                                <img src="/images/Group__47.svg" alt="group 47"/>
                             </span>
                         </div>
                     </div>
