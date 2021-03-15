@@ -44,7 +44,7 @@ class Navbar extends Component {
                 <div>
                 <ul className="nav justify-content-center " style={{border: '1px solid gray'}}>
                     <li className="nav-item">
-                    <a className="nav-link uppercase text-dark m-2" href="#">markect place</a>
+                    <a className="nav-link uppercase text-dark m-2" href="#">market place</a>
                     </li>
                     <li className="nav-item">
                     <a className="nav-link uppercase text-dark m-2" href="#">wholesale center</a>
