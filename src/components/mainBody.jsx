@@ -1,12 +1,11 @@
-import { Button } from 'bootstrap';
-// import { Button } from '@material-ui/core';
 import React, { Component } from 'react';
 import Badge from './customerBadge';
-// import CustomerBadge from './customerBadge';
+import group__81 from '../../src/images/Group-81.svg';
+import ladies__img from '../../src/images/ladies.svg';
+import group__47__img from '../../src/images/Group-47.svg';
 
 
 class MainBody extends Component {
-    state = {  }
     render() { 
         return ( 
             <React.Fragment>
@@ -18,17 +17,17 @@ class MainBody extends Component {
                         </div>
                         <div className="col">
                             <div className="body__bgimg">
-                                <img src="/images/Group__81.svg" className="body__img" alt="vasity-logo"/>  
+                                <img src={group__81} className="body__img" alt="vasity-logo"/>  
                             </div>
                         </div>
                     </div>
                     <div className="row body__row2">
                         <div className="col">
-                            <img src="/images/Group__89.svg"  claasName="body__img2" alt="ladies"/>
+                            <img src={ladies__img}  claasName="body__img2" alt="ladies"/>
                         </div>
                         <div className="col" style={{margin: '60px', marginTop: '90px'}}>
                             <h4>Tolu's and Joy's experience</h4>
-                            <Badge />
+                            <button className="badge badge-dark m-2">CUSTOMER</button>
                             <br/>
                             <br/>
                             <address style={{textAlign: 'justify'}}>
@@ -44,7 +43,7 @@ class MainBody extends Component {
                             <br/>
                             <br/>
                             <span>
-                                <img src="/images/Group__47.svg" alt="group 47"/>
+                                <img src={group__47__img} alt="group 47"/>
                             </span>
                         </div>
                     </div>

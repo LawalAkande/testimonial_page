@@ -1,13 +1,9 @@
 import { AppBar, Toolbar, IconButton, Button, Tooltip, Typography } from '@material-ui/core';
-import Link from '@material-ui/core/Link'
 import React, { Component } from 'react';
-// import vasitiLogo from './ji/Vasiti-Logoo-black 1.png'
+import vasitiLogo from '../../src/images/Vasiti-Logo-black-1.png';
 
 
 class Navbar extends Component {
-    state = { 
-        vasitiLogo: "https://vasiti.com/img/site/logo.png"
-     }
     styles = {
         listStyleType: 'none'
     }
@@ -21,9 +17,7 @@ class Navbar extends Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
                             <a className="navbar-brand mr-auto" href="#">
-                                {/* <img src="/images/Vasiti-Logoo-black 1.png" alt="vasity-logo"/> */}
-                                {/* <img src={"vasitiLogo"} alt="vasity-logo"/> */}
-                                <img src={this.state.vasitiLogo} alt="vasity-logo" className="vasity-logo"/>
+                                <img src={vasitiLogo} alt="vasity-logo" className="vasity-logo"/>
                             </a>
                             <form className="form-inline my-2 my-lg-0">
                                 <li className="nav-item listStyleNone">

@@ -5,7 +5,7 @@ class Badge extends Component {
     render() { 
         return ( 
             <React.Fragment>
-                <button className="badge badge-dark">CUSTOMER</button>
+                <button className="badge m-2">CUSTOMER</button>
             </React.Fragment>
          );
     }

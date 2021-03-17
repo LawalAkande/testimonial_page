@@ -18,7 +18,6 @@ code {
   font-weight: normal;
   font-size: 13px;
   line-height: 15px;
-  /* display: flex; */
   align-items: center;
   text-align: center;
   letter-spacing: 0.05em;
@@ -36,13 +35,11 @@ code {
 .body__img {
   width: 536px;
   margin-top: 10px;
-  /* height: 568px; */
 }
 
 .body__h1 {
   margin-top: 100px;
   width: 500px;
-  /* height: 150px */
 }
 .body__p {
   width: 489px;
@@ -69,9 +66,20 @@ code {
 .badge {
   width: 95px;
   height: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1px solid #EEF8FF;
   box-sizing: border-box;
   border-radius: 4px;
+  color: #0D019A;
+  background-color: #EEF8FF;
+}
+
+.badge .badge-dark {
+  width: 95px;
+  height: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+  color: #FFF;
+
 }
 
 .vendor {
@@ -79,6 +87,17 @@ code {
   height: 30px;
   background: #F0FFEE;
   border-radius: 4px;
+}
+
+.my-3 {
+  width: 75px;
+  height: 30px;
+  border: 1px solid rgba(255, 92, 0, 0.4);
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #FF5C00;
+  background-color: #FFF8F5;
+  text-transform: capitalize;
 }
 
 .womanShopping__bg {
@@ -92,13 +111,37 @@ code {
 .footer__Bg {
   background-image: url(../src/ji/footer__bg.svg);
   padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .vasity-logo {
   height: 35px;
   width: 150px;
   border-radius: 0px;
+}
 
+.main-banner {
+  background-image: url(../src/images/main-banner.png);
+}
+
+.main-banner-img {
+  margin-top: -30px;
+}
+
+.footer-text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.input__button {
+  background-color: #fff;
+  color: #242120 !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input[type="text"] {
+  background: rgba(255, 255, 255, 0.2) !important;
+  color: #FFFFFF !important;
 }
 
 

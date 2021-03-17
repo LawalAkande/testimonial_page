@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import Badge from './customerBadge';
 import VendorBadge from './vendorBadge';
+import joseph__img from '../../src/images/joseph.svg';
+import adetola__img from '../../src/images/adetola.svg';
+import emmanuel__img from '../../src/images/emmanuel.svg';
+import chisom__img from '../../src/images/chisom.svg';
+import adunoluwa__img from '../../src/images/adunoluwa.svg';
+import chidi__img from '../../src/images/chidi.svg';
 
 class CustomerAndVendor extends Component {
     state = {  }
     render() { 
         return ( 
             <React.Fragment>
-                <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-3 col-md-6 m-3">
                             <div className="card-body">
-                                <img src="/images/joseph.svg" className="image-fluid rounded-circle w-50 mb-3" alt=""/>
+                                <img src={joseph__img} className="image-fluid rounded-circle w-50 mb-3" alt=""/>
                                 <h3>Joseph Ike</h3>
                                 <span>
                                     <span>In Ikeja</span>
@@ -34,7 +39,7 @@ class CustomerAndVendor extends Component {
                         </div>
                         <div className="col-lg-3 col-md-6 m-3">
                             <div className="card-body">
-                                <img src="/images/adetola.svg" className="image-fluid rounded-circle w-50 mb-3" alt=""/>
+                                <img src={adetola__img} className="image-fluid rounded-circle w-50 mb-3" alt=""/>
                                 <h3>Adetola Fashina</h3>
                                 <span>
                                     <span>Ibadan</span>
@@ -54,7 +59,7 @@ class CustomerAndVendor extends Component {
                         </div>
                         <div className="col-lg-3 col-md-6 m-3">
                             <div className="card-body">
-                                <img src="/images/emmanuel.svg" className="image-fluid rounded-circle w-50 mb-3" alt=""/>
+                                <img src={emmanuel__img} className="image-fluid rounded-circle w-50 mb-3" alt=""/>
                                 <h3>Emmanuel Fayemi</h3>
                                 <span>
                                     <span>In Akoka</span>
@@ -78,7 +83,7 @@ class CustomerAndVendor extends Component {
                         </div>
                         <div className="col-lg-3 col-md-6 m-3">
                             <div className="card-body">
-                                <img src="/images/chisom.svg" className="image-fluid rounded-circle w-50 mb-3" alt=""/>
+                                <img src={chisom__img} className="image-fluid rounded-circle w-50 mb-3" alt=""/>
                                 <h3>Chisom Obilor</h3>
                                 <span>
                                     <span>In Ikeja</span>
@@ -100,7 +105,7 @@ class CustomerAndVendor extends Component {
                         </div>
                         <div className="col-lg-3 col-md-6 m-3">
                             <div className="card-body">
-                                <img src="/images/adunoluwa.svg" className="image-fluid rounded-circle w-50 mb-3" alt=""/>
+                                <img src={adunoluwa__img} className="image-fluid rounded-circle w-50 mb-3" alt=""/>
                                 <h3>Adunoluwa Adeyemi</h3>
                                 <span>
                                     <span>In Ikeja</span>
@@ -120,7 +125,7 @@ class CustomerAndVendor extends Component {
                         </div>
                         <div className="col-lg-3 col-md-6 m-3">
                             <div className="card-body">
-                                <img src="/images/cgidi.svg" className="image-fluid rounded-circle w-50 mb-3" alt=""/>
+                                <img src={chidi__img} className="image-fluid rounded-circle w-50 mb-3" alt=""/>
                                 <h3>Chidi Okeke</h3>
                                 <span>
                                     <span>Chidi Okeke</span>
@@ -142,7 +147,6 @@ class CustomerAndVendor extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
             </React.Fragment>
          );
     }
